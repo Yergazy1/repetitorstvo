@@ -15,3 +15,8 @@ print(word_1,word_2,word_3,sep=s)
 
 
 /////
+
+num = int(input())
+print(num)
+print(num+1)
+print(num+2)
