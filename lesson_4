@@ -1,0 +1,12 @@
+password = 'qwerty'
+
+input_password = input("Введите пароль:    ")
+
+print("Это выводится после инпута")
+
+
+if(password==input_password):
+    print("Вы успешно залогенились")
+
+if(password!=input_password):
+    print("пароль неверный")
