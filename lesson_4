@@ -10,3 +10,24 @@ if(password==input_password):
 
 if(password!=input_password):
     print("пароль неверный")
+
+
+
+age = int(input())
+if(age<18):
+    print("вход запрещен")
+else:
+    print("можно")
+
+
+
+point = int(input())
+
+if(point>85):
+    print('A')
+elif(point>65 and point<85):
+    print('B')
+elif(point>50 and point<65):
+    print('C')
+else:
+    print('D')
