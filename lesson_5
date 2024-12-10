@@ -59,3 +59,21 @@ while text != 'stop':
     text = input()
 
 print('Сумма чисел равна', total)
+
+
+
+
+n = int(input("Введите число: "))
+summa = 0
+i = 1
+
+while i <= n:
+    summa += i
+    i += 1
+
+print(summa)
+
+
+
+
+
