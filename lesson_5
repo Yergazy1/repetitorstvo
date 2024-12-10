@@ -1,0 +1,61 @@
+a = 7
+while a<10:
+    print(a)
+    a = a+1
+    print("цикл закончен")
+
+7
+цикл закончен
+8
+цикл закончен
+9
+цикл закончен
+
+
+
+
+a = 7
+while a<10:
+    print(a)
+    a = a+1
+print("цикл закончен")
+
+7
+8
+9
+цикл закончен
+
+
+
+a = 7
+while a==7:
+    print(a)
+    a = a+2
+print("цикл закончен")
+7
+цикл закончен
+
+
+num = int(input())
+while num != -1:
+    print('Квадрат вашего числа равен:', num * num)
+    num = int(input())
+
+
+i = 0
+while i < 1000:
+    print(i)
+    i += 1
+
+
+a = "123"
+print(int(a) + 12)
+
+
+text = input()
+total = 0
+while text != 'stop':
+    total += int(text)
+    text = input()
+
+print('Сумма чисел равна', total)
