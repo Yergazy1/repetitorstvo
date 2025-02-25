@@ -2,3 +2,9 @@ club = input()
 print(club, "- чемпион!")
 
 
+
+
+name = input()
+print("Привет,", name)
+
+
