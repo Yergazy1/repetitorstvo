@@ -18,3 +18,13 @@ if age<18:
 else:
     print("приятнго отдыха")
 =====================
+a = int(input())
+
+if a<50:
+    print("D")
+elif a>50 and a<70:
+    print("C")
+elif a>70 and a<85:
+    print("B")
+else:
+    print("A")
